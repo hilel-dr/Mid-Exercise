@@ -1,7 +1,12 @@
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+
 header {
     width: 100%;
     height: 105px;
-    position: relative;
     background-color: rgb(144, 144, 144);
     background-image: linear-gradient(to bottom, rgb(144, 144, 144),rgb(200,200,200));
 }
@@ -9,6 +14,37 @@ header {
 
 main{
     height: 619px;
+}
+
+.content {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-imgs{
+    height: 355px;
+    margin-top: 30px;
+    background-color: yellow;
+    display: flex;
+}
+
+.top-imgs >p{
+    margin: auto;
+}
+
+
+.bottom-imgs {
+    margin-top: 18px;
+    height: 216px;
+    background-color: lightpink;
+    display: flex;
+}
+
+.bottom-imgs >p{
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer{
