@@ -1,0 +1,41 @@
+724-105(=headr height) = 619
+619-38(=footer height) = 581
+
+The width of the main content is 900
+
+header wxh = 100% x 105
+------------------------------------------------
+main wxh = 900 X 620
+
+------------------------------------------------
+between top-imgs and header = 30px
+------------------------------------------------
+top-imgs
+
+right-img: = 293x365 
+middle-img: = 293x365 + (margin-right-left=10)
+left-img: = 293x365 
+
+------------------------------------------------
+18px between top-imgs and bottom-imgs
+------------------------------------------------
+bottom-imgs div - 900x216 + (margin-up=18)
+
+right-img: = 244x216 + (pad-left-right=24)
+middle-img: = 244x216 + (pad-left-right=24, margin-right-left=11)
+left-img: = 244x216 + (pad-left-right=24)
+------------------------------------------------
+footer height = 38 fixed
+
+the height of the photos in the middle is 355
+The width of the photos in the middle is 293
+
+-----------------------------------------------------
+search-icon 19x19
+searchbox 132X19
+searchbox 126x14
+containing-div 152x19 position: left=10, top=20, bottom=66, left=738
+
+
+
+
