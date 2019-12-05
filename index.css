@@ -12,6 +12,20 @@ header {
 }
 
 
+header>.content{
+    position: relative;
+}
+
+header div.search-box{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    width: 152px;
+    height: 19px;
+    background-color: linen;
+}
+
+
 main{
     height: 619px;
 }
