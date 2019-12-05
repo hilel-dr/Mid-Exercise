@@ -58,6 +58,12 @@ header div.search-box{
     font-weight: bold;
 }
 
+.logo {
+    position: absolute;
+    top: 32px;
+    right: -8px;
+    bottom: -1270x;
+}
 
 /* main css */
 
