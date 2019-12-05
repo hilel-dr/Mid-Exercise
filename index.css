@@ -7,6 +7,7 @@ body {
 }
 
 
+/* header css */
 header {
     width: 100%;
     height: 105px;
@@ -44,6 +45,21 @@ header div.search-box{
     height: 14px;
     width: 126px;
 }
+
+.lang-label {
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+
+.lang-label>a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* main css */
 
 main{
     height: 619px;
