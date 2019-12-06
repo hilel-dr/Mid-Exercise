@@ -59,10 +59,18 @@ header div.search-box{
 }
 
 .logo {
-    position: absolute;
+    position: relative;
     top: 32px;
     right: -8px;
-    bottom: -1270x;
+}
+
+.home-button {
+    position: relative;
+    width: 17px;
+    overflow: hidden;
+    /* top: 32px; */
+    right: -8px;
+
 }
 
 /* main css */
