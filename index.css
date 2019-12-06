@@ -4,12 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Arial (Hebrew)', Arial;
-    border: solid 1px black;     
+    /* border: solid 1px black;      */
 }
 
 
 .content {
     width: 900px;
+    height: 100%;
     display: flex;    
     flex-direction: column;    
     justify-content: space-between;
@@ -23,14 +24,12 @@ header {
     background-image: linear-gradient(to bottom, rgb(144, 144, 144) 85%, rgb(180,180,180));
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 /* top header box contains the search box and the lang label */
-.top-header-box {
+.top-header {
     display: flex;
-    margin-top: 20px;
-    margin-left: 10px ;
+    height: 50%;
     justify-content: flex-end; 
     align-items: center;
 }
@@ -48,8 +47,6 @@ header {
 .search-box{
     display: flex;
     align-items: center;
-    width: 152px;
-    height: 19px;
     border-radius: 0px 50px 0px 0px;   
 }
 
@@ -71,23 +68,34 @@ header {
     height: 19px;
 }
 
-/* css end of top header box */
+/* End of top header box CSS */
 
+/* bottom-header CSS */
+
+.bottom-header {
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    /* align-items: center; */
+}
 
 .logo {
     position: relative;
-    top: 32px;
+    width: 142px;
+    height: 43px;
     right: -8px;
+    top: -30px;    
 }
 
 .home-button {
     position: relative;
     width: 17px;
+    height: 33px;
     overflow: hidden;
-    /* top: 32px; */
-    right: -8px;
+ }
 
-}
+
+/* bottom-header CSS */
 
 /* main css */
 
