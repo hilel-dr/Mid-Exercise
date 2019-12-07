@@ -17,51 +17,5 @@
 }
 
 
-@import  url(“header.css”);
-
-/* main css */
-main{
-    height: 619px;
-}
-
-.content {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.top-imgs{
-    height: 355px;
-    margin-top: 30px;
-    background-color: yellow;
-    display: flex;
-}
-
-.top-imgs >p{
-    margin: auto;
-}
-
-
-.bottom-imgs {
-    margin-top: 18px;
-    height: 216px;
-    background-color: lightpink;
-    display: flex;
-}
-
-.bottom-imgs >p{
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-footer{
-    position: fixed;
-    bottom: 0;
-    height: 38px;
-    width: 100%;
-    background-color: rgb(144, 144, 144);
-    background-image: linear-gradient(to top, rgb(144, 144, 144),rgb(167,167,167));
-}
 
 

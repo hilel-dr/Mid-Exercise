@@ -1,0 +1,11 @@
+/* footer css */
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 38px;
+    width: 100%;
+    background-color: rgb(144, 144, 144);
+    background-image: linear-gradient(to top, rgb(144, 144, 144),rgb(167,167,167));
+}
