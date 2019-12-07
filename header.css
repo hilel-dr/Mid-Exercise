@@ -25,6 +25,11 @@ header {
     font-weight: bold;
 }
 
+.lang-label > a:hover {
+    text-decoration: underline;
+    color: #005CA0;
+}
+
 .search-box{
     display: flex;
     align-items: center;
