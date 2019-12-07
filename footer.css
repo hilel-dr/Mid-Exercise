@@ -18,11 +18,7 @@ ul.footer-menu {
 }
 
 ul.footer-menu a {
-    /*remove under-score from 'a' tags*/
-    text-decoration: none;
-    color: white;
     font-size: 14px;
-    white-space: nowrap;
 }
 
 
@@ -30,10 +26,6 @@ ul.footer-menu > li:last-child>a {
     color: red;
 }
 
-.footer-menu a:hover {
-    text-decoration: underline;
-    color: #005CA0;
-}
 
 .fb_icon{
     width: fit-content;

@@ -18,6 +18,18 @@
     margin-right: auto;
 }
 
+.menu-a {
+        /*remove under-score from 'a' tags*/
+        text-decoration: none;
+        color: white;
+        white-space: nowrap;
+}
+
+.menu-a:hover {
+    text-decoration: underline;
+    color: #005CA0;
+}
+
 
 
 
