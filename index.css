@@ -17,88 +17,9 @@
 }
 
 
-/* header css */
-header {
-    height: 105px;
-    background-color: rgb(144, 144, 144);
-    background-image: linear-gradient(to bottom, rgb(144, 144, 144) 85%, rgb(180,180,180));
-    display: flex;
-    flex-direction: column;
-}
-
-/* top header box contains the search box and the lang label */
-.top-header {
-    display: flex;
-    height: 50%;
-    justify-content: flex-end; 
-    align-items: center;
-}
-
-.lang-label {
-    margin-left: 20px;
-}
-
-.lang-label>a {
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.search-box{
-    display: flex;
-    align-items: center;
-    border-radius: 0px 50px 0px 0px;   
-}
-
-.search-box > .text-field {
-    position: relative;
-    height: 19px;
-}
-
-.text-field > input {
-    position: absolute; /*to cover the search image*/
-    right: 5px;
-    top: 2px;
-    height: 14px;
-    width: 126px;
-}
-
-.search-box > .search-icon{
-    width: 19px;
-    height: 19px;
-}
-
-/* End of top header box CSS */
-
-/* bottom-header CSS */
-
-.bottom-header {
-    display: flex;
-    align-items: flex-end;
-    height: 50%;
-    /* align-items: center; */
-}
-
-.logo {
-    position: relative;
-    width: 142px;
-    height: 43px;
-    right: -8px;
-    top: -30px;    
-}
-
-.home-button {
-    position: relative;
-    width: 17px;
-    height: 33px;
-    overflow: hidden;
- }
-
-
-/* bottom-header CSS */
+@import  url(“header.css”);
 
 /* main css */
-
 main{
     height: 619px;
 }
