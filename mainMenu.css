@@ -1,70 +1,78 @@
-
 /* mainMenu - CSS */
 
-nav > ul {
+nav>ul {
     list-style: none;
-    display: flex; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-sep {
+    background-image: url(images/menu_sep.png);
+    width: 4px;
+    height: 21px;
+    margin: 0px 16px 0px 16px;
+}
+
+#dropdown-sep {
+    background-image: url(images/menu_dropdown_sep.png);
     width: 100%;
-    margin: 0;
-    padding: 0;  
-  }
-  
-  nav > ul > li {
-    display: flex;    
-  }
-  
-  nav > ul > li:last-child {
-    margin-right: auto; 
-  } 
-  
-  nav > ul > li > a , .dropdown-content > a{
+    height: 1px;
+
+}
+
+nav>ul>li {
+    display: flex;
+}
+
+.main-menu a {
+    /*remove under-score from 'a' tags*/
     text-decoration: none;
     padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;  
+    padding-bottom: 17px;
     text-align: center;
-  }
-  
-  nav > ul > li > a{
-    color: yellow;
-    font-size: 14px;  
-  }
-  
-  .dropdown-content > a {
-    background-color: yellow;
-    color: blue;
-    font-size: 12px;  
-    margin-top: 5px;
-  }
-  
-  nav > ul > li > a:hover, .dropdown-content> a:hover , .dropdown:hover  > a  {
-    background-color: rgba(111, 197, 133, 0.5);;
-  }
-  
-  nav > ul > li.active > a {
-    background-color: lightseagreen;
-  }
-  
-  
-  .dropdown {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+    color: #005CA0;
+}
+
+
+.dropdown-content>a {
+    padding: 5px;
+}
+
+.dropdown {
     position: relative;
-  }
-  
-  .dropdown-content {
+
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: yellow;
-    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.5);
-  }
-  
-  
-  .dropdown:hover > .dropdown-content {
-    display: initial;
+    background-color: rgb(144, 144, 144);
+
+}
+
+.dropdown-content>a:first-child {
+    background-image: linear-gradient(to top, rgb(144, 144, 144) 30%, rgb(180, 180, 180));
+}
+
+.dropdown-content>a:hover {
+    background-image: none;
+    background-color: #bcbcbc;
+}
+
+
+.dropdown:hover>.dropdown-content {
     display: flex;
     flex-direction: column;
-  
-  }
-  
+}
