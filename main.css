@@ -6,16 +6,18 @@ main{
 .top-imgs{
     height: 355px;
     margin-top: 30px;
-    background-color: yellow;
     display: flex;
+    justify-content: space-between;
 }
 
-.top-imgs >p{
-    margin: auto;
+.top-imgs > img {
+    border-bottom-right-radius: 20px;
+
 }
 
 
 .bottom-imgs {
+    display: flex;
     margin-top: 18px;
     height: 216px;
     background-color: lightpink;

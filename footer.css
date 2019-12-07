@@ -15,6 +15,7 @@ ul.footer-menu {
     list-style: none;
     align-items: center;
     padding-right: 0px;
+    padding-top: 8px;
 }
 
 ul.footer-menu a {
@@ -30,7 +31,6 @@ ul.footer-menu > li:last-child>a {
 .fb_icon{
     width: fit-content;
     height: fit-content;
-    padding-top: 5px;
 }
 
 .fm-sep {
