@@ -59,6 +59,7 @@ nav>ul>li {
     top: 100%;
     right: 0;
     background-color: rgb(144, 144, 144);
+    z-index: 1;
 
 }
 
