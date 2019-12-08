@@ -4,15 +4,30 @@ main {
 }
 
 .top-imgs {
-    height: 355px;
+    /* height: 355px; */
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
-.top-imgs>img {
+.top-img>img {
     border-bottom-right-radius: 20px;
+}
 
+.top-img>img:first-child {
+    object-fit: scale-down;
+    height: 355px;    
+}
+
+.top-img {
+    position: relative;
+
+}
+
+.top-img>img.text-bg {
+    position: absolute;
+    right: 6px;
+    bottom: 8px;
 }
 
 
