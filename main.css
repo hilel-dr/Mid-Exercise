@@ -1,31 +1,91 @@
 /* main css */
-main{
+main {
     height: 619px;
 }
 
-.top-imgs{
+.top-imgs {
     height: 355px;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
-.top-imgs > img {
+.top-imgs>img {
     border-bottom-right-radius: 20px;
 
 }
 
 
 .bottom-imgs {
-    display: flex;
     margin-top: 18px;
     height: 216px;
-    background-color: lightpink;
     display: flex;
+    justify-content: space-between;
 }
 
-.bottom-imgs >p{
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
+.bottom-imgs> .box-frame {
+    border-top-right-radius: 20px;
+     width: 288px;
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/small_cube_bg.png");
+}
+
+.box-frame > .align-box {
+    width: 244px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.align-box > .caption {
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    color: #72716d;
+    font-size: 13px;
+    background: url(images/read_more_yellow.png) no-repeat left center;
+    text-decoration: none;
+}
+
+.align-box> a.read-more {
+    margin-bottom: 20px;
+}
+
+.areas> a.read-more {
+    margin-bottom: 5px;
+}
+
+.read-more> span:first-child{
+    text-decoration: underline;
+}
+
+.read-more:hover {
+    background: url(images/read_more_blue.png) no-repeat left center;
+    color: #005CA0;
+}
+
+.align-box>img {
+    object-fit: scale-down;
+    width: 244px;
+}
+
+.map-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.areas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
