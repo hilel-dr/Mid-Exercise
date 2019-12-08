@@ -1,3 +1,7 @@
+https://hilel-dr.github.io/Mid-Exercise/.
+https://github.com/hilel-dr/Mid-Exercise
+
+
 724-105(=headr height) = 619
 619-38(=footer height) = 581
 
