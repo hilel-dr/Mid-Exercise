@@ -13,29 +13,53 @@
     flex-direction: column;
 }
 
-.right-col > a {
-    background-image: url("images/side_menu_sprite-Hilel.png");
-    width: 122px;
-    height: 36px;
+a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.right-col > a.big-button {
+    width: 122px;
+    height: 36px;    
+    background-image: url("images/side_menu_sprite-Hilel.png");
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.right-col > a > p {
-    margin-right:20px;
+.big-button>span {
+    margin-right:20px; 
+}
+
+.big-button> {
     color: black;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
-.right-col > a > p:hover, .right-col > a:hover > p {
+
+.right-col>.big-button:hover {
     color:blue;
     text-decoration-line: underline;
 }
 
 .mid-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 440px;
     background: lightskyblue;    
+}
+
+.mid-col> .home-link {
+    font-size: 13px;
+    color: black;
+}
+
+
+.home-link > a:hover {
+    color : blue;
 }
 
 .left-col {
