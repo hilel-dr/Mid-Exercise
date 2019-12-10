@@ -7,8 +7,7 @@
     
 }
 
-.right-col {
-    width: 122px;
+.contact-layout>.column {
     display: flex;
     flex-direction: column;
 }
@@ -19,6 +18,10 @@ a {
 
 a:hover {
     text-decoration-line: underline;
+}
+
+.right-col {
+    width: 122px;
 }
 
 .right-col > a.big-button {
@@ -45,11 +48,8 @@ a:hover {
 }
 
 .mid-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 440px;
-    background: lightskyblue;    
 }
 
 .mid-col> .home-link {
@@ -61,6 +61,16 @@ a:hover {
 .home-link > a:hover {
     color : blue;
 }
+
+.mid-col>.title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color:  rgb(64, 64, 64);
+    padding-bottom: 3px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
 
 .left-col {
     width: 292px;
