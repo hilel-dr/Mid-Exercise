@@ -1,4 +1,44 @@
-contact-box {
-    height: 426px;
+
+.contact-layout {
+    margin-top: 35px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;    
+    
 }
 
+.right-col {
+    width: 122px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-col > a {
+    background-image: url("images/side_menu_sprite-Hilel.png");
+    width: 122px;
+    height: 36px;
+    text-decoration: none;
+    display: flex;
+}
+
+.right-col > a > p {
+    margin-right:20px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.right-col > a > p:hover, .right-col > a:hover > p {
+    color:blue;
+    text-decoration-line: underline;
+}
+
+.mid-col {
+    width: 440px;
+    background: lightskyblue;    
+}
+
+.left-col {
+    width: 292px;
+    background: yellowgreen;
+}
