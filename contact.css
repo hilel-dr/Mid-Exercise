@@ -20,6 +20,8 @@ a:hover {
     text-decoration-line: underline;
 }
 
+
+/* CSS for main right column */
 .right-col {
     width: 122px;
 }
@@ -47,6 +49,11 @@ a:hover {
     text-decoration-line: underline;
 }
 
+
+/* END CSS for main right column */
+
+
+/* CSS for main middle column */
 .mid-col {
     justify-content: flex-start;
     width: 440px;
@@ -71,8 +78,145 @@ a:hover {
     border-bottom: 1px solid #cbcbcb;
 }
 
+.contact-box {
+    background-image: linear-gradient(to bottom, rgb(254, 254, 254) 75%, rgb(228,228,228));
+    border: 1px solid rgb(204, 204, 204);
+    border-bottom: none;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-col > .contact-box-main {
+    width: 383px;
+    height: 356px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 15px 30px 30px;          
+}
+
+
+.blue-title {
+    color: rgb(0,92,160);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contact-header > p.instruct {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+.contact-header > p.ps {
+    color: rgb(114,113,109);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+.form-box {
+    width: 235px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+}
+
+form  input
+{
+    font-size:12px;
+    /* padding: 3px; */
+}
+
+form textarea {
+    width: 100%;
+    height: 80px;
+}
+
+.submit-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+
+.submit-box>input{
+    color:white;
+    background-image: linear-gradient(to top, rgb(2,79,134), rgb(10,161,226));
+    padding: 2px 8px;
+    border-width: 1px;
+    font-size: 14px;
+}
+
+
+.submit-box:hover>input{
+    color:black;
+    background-image: linear-gradient(to top, rgb(242,160,53), rgb(252,230,31));
+}
+
+
+label {
+    width: 75px;
+}
+
+/* END CSS for main middle column */
 
 .left-col {
     width: 292px;
-    background: yellowgreen;
+    /* background: yellowgreen; */
+}
+
+
+.left-col .blue-title {
+    margin-top: 7px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgb(238,238,238);
+    margin-bottom: 7px;
+}
+
+
+.left-col-content{
+    font-size: 13px;
+    color: rgb(109,109,109);
+    line-height: 1;
+}
+
+
+.left-col .bold-line{
+    font-weight: bold;
+}
+
+
+
+.contact-details {
+    height: 175px;
+    margin-top: 54px;
+    padding: 10px 15px 30px 30px;      
+}
+
+.contact-more {
+    height: 175px;
+    margin-top: 25px; 
+    padding: 10px 15px 30px 30px;      
+}
+
+.contact-more a {
+    color: rgb(0, 0,238);
 }
